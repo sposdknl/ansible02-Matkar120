@@ -1,22 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cCPQDIPk)
-# Zabbix vs Grafana automatizece
+# MP-Automatizovaná instalace a správa Grafana pomocí Ansible
 
-Repository pro vyuku na SPOS DK
+Některé části mi byly poskytnuty a všechny převzaté části budou zmíněny v textu práce.
 
-Tento projekt vznikl jako klon [maturitní práce](https://prace.pslib.cz/ideas/6853), kterou vypracoval [Jan Mizera](https://github.com/JanMizera/MP-Automatizovana-instalace-a-sprava-Grafana-pomoci-Ansible) a polouží k výuce Ansible na SPOS DK.
-Vzorem byl [projekt](https://github.com/smejdil/zabbix-grafana).
+## Závislosti
 
-![Zabbix & Grafana](./images/Futuristic_tech_cityscape_with_logos.png)
-
-### Závislosti
-
-1. **Vagrant 2.4.9-1** – dostupné online na: https://developer.hashicorp.com/vagrant/install
-2. **VirtualBox 7.2.6** – dostupné online na: https://www.virtualbox.org/wiki/Downloads
+1. **Vagrant 2.4.9** – dostupné online na: https://developer.hashicorp.com/vagrant/install
+2. **VirtualBox 7.2.4** – dostupné online na: https://www.virtualbox.org/wiki/Downloads
 3. **Git 2.52.0** – dostupné online na: https://git-scm.com/install/
-4. **Docker 29.3.1-1** - dostupné online na: https://www.docker.com/get-started/
-5. **Zabbix 7.0.24 LTS** - dostupné online na: https://www.zabbix.com/download
-6. **Ansible 2.20.4** - dostupné online na: https://www.redhat.com/en/ansible-collaborative
-7. **Zabbix collection for Ansible 4.1.1** - dostupné online na: https://galaxy.ansible.com/ui/repo/published/community/zabbix/ 
 
 ## Návod ke spuštění
 
@@ -24,8 +14,8 @@ Vzorem byl [projekt](https://github.com/smejdil/zabbix-grafana).
 Stažení projektu pomocí příkazu `git clone` v prázdném adresáři:
 
 ```bash
-cd work/spos/
-git clone https://github.com/sposdknl/zbx7-grafana.git
+cd /cesta-k-vasemu-adresari/
+git clone [https://github.com/JanMizera/MP-Automatizovana-instalace-a-sprava-Grafana-pomoci-Ansible.git](https://github.com/JanMizera/MP-Automatizovana-instalace-a-sprava-Grafana-pomoci-Ansible.git)
 ```
 
 ### 2. Spuštění projektu

@@ -8,3 +8,26 @@
     usrgrps:
       - "Zabbix administrators"
     state: present
+
+- name: Create user Matej Karmazin
+  community.zabbix.zabbix_user:
+    username: "matej.karmazin"
+    passwd: "MojeHeslo123!"
+    name: "Matej"
+    surname: "Karmazin"
+    role_name: "User role"
+    usrgrps:
+      - "Guests"
+    user_medias:
+      - mediatype: "Email"
+        sendto: "karmazin.matej@student.sposdk.cz"
+        active: true
+        period: "1-7,00:00-24:00"
+        severity:
+          not_classified: false
+          information: false
+          warning: true
+          average: true
+          high: true
+          disaster: true
+    state: present
